@@ -1,0 +1,23 @@
+{
+  "name": "node_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-script": "node run-tests.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conversaShawn/cypress-node-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conversaShawn/cypress-node-script/issues"
+  },
+  "homepage": "https://github.com/conversaShawn/cypress-node-script#readme",
+  "dependencies": {
+    "cypress": "^9.5.4"
+  }
+}
