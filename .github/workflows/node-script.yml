@@ -41,4 +41,4 @@ jobs:
           # allow status checks to remain when getting commit info message
           COMMIT_INFO_SHA: ${{ github.event.pull_request.head.sha }}
           # check machine resources
-          DEBUG: 'cypress:server:util:process_profiler'
+          # DEBUG: 'cypress:server:util:process_profiler'

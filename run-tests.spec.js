@@ -7,7 +7,7 @@ cypress.run({
 //     baseUrl: 'http://localhost:8080',
 //     video: true,
 //   },
-  // env: {
-  //   DEBUG: "cypress:server:util:process_profiler"
-  // },
+  env: {
+    DEBUG: "cypress:*"
+  },
 })
